@@ -76,7 +76,7 @@
 	</head>
 
 	<body style="background-color:#000000">
-	<form id="sign-up-form" name="signUp" action="../api/IdDupCheck.php" method="POST">
+	<form id="sign-up-form" name="signUp" action="../api/sign_up_to_db.php" method="POST">
 
 		<div class="form-group main-form">
 
