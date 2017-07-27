@@ -30,7 +30,7 @@
 				}
 				else
 				{
-					var popup_url = "../api/id_dup_check.php?id=" + input_id + "&bool_c="+bool_c;
+					var popup_url = "../api/id_dup_check.php?id=" + input_id;
 					var popup_opt = "width=500, height=500, resizable=no, scrollbars=no, status=no;";
 					window.open(popup_url, popup_opt);
 

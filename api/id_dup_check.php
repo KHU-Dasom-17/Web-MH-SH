@@ -3,7 +3,6 @@
 <?php
 	
 	$get_id = $_GET['id'];
-	$get_bool_c=$_GET['bool_c'];
 
 	include("../db/connect.php");
 
@@ -15,7 +14,6 @@
 	{
 		echo "<script>alert('$get_id 는 사용 가능한 ID 입니다!')</script>";
 		
-		echo "<script>alert('$get_bool_c')</script>";
 		echo "<script>window.close();</script>";
 	}
 	else
