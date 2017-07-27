@@ -1,0 +1,60 @@
+.main-form
+{
+	background-color:#F8F8FF;
+	margin-top:5%;
+	margin-left:3%;
+	margin-right:3%;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+.set-center
+{
+	width:40%;
+	margin: 0 auto;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+.set-center-div
+{
+	width:40%;
+	margin: 0 auto;
+}
+
+.accept-button
+{
+	margin-left:2px;
+	margin-right:2px;
+}
+
+#title-label
+{
+	width:40%;
+	margin: 0 auto;
+	margin-bottom:1em;
+}
+
+#login-button
+{
+	width:49%;
+	margin-right:0;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+#join-button
+{
+	width:49%;
+	margin-left:0%;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+#check-button
+{
+	width:50%;
+	margin-left:25%;
+	margin-top:1em;
+	margin-bottom:1em;
+}
