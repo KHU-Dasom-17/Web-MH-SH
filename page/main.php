@@ -17,6 +17,17 @@
 			h1 { font-family: 'Hanna', cursive; }
 		</style>
 
+		<!-- NOW TIME -->
+		<script>
+			function get_time()
+			{
+				var d = new Date();
+				
+				document.write(d.getFullYear() + '년 ' + (d.getMonth()+1) + '월 ' + d.getData() + '일 '
+					+ d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds() + ' 기준');
+			}
+		</script>
+
 	</head>
 
 	<body style="background-color:#000000">
@@ -52,6 +63,11 @@
 				</tbody>
 
 			</table> <!-- table end -->
+
+			<!-- TIME LABEL -->
+			<span class="page-header">
+				<center><h5><script>getTime()</script></h5></center>
+			</span>
 
 		</div>
 	</form>
