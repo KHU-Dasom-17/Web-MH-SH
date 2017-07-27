@@ -10,19 +10,12 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 		<link rel="stylesheet" href=".././frame/css/common.css">
 
-		<title>메이플스토리 메소생성기</title>
+		<title>실시간 검색어 순위</title>
 
 		<style>
 			@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
 			h1 { font-family: 'Hanna', cursive; }
 		</style>
-
-		<script>
-			function genMeso()
-			{
-				alert("그걸 낚이냐 급식아..");
-			}
-		</script>
 
 	</head>
 
@@ -39,13 +32,27 @@
 
 			<!-- TITLE LABEL -->
 			<div class="page-header">
-				<center><h1>메이플스토리 메소생성기</h1></center>
+				<center><h1>실시간 검색어 순위</h1></center>
 			</div>
 
-			<!-- GENERATE BUTTON -->
-			<div>
-				<center><button type="button" class="btn btn-primary" id="gen-button" onclick='genMeso()'>메소 생성</button></center>
-			</div>
+			<!-- TABLE -->
+			<table class="table table-striped">
+
+				<thead>
+				<tr>
+					<th>순위</th>
+					<th>내용</th>
+				</tr>
+
+				<tbody>
+
+				<!-- MAKE ROW -->
+				<?php include("../api/main_search.php"); ?>
+
+				</tbody>
+
+			</table> <!-- table end -->
+
 		</div>
 	</form>
 
